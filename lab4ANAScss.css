@@ -1,0 +1,42 @@
+body {
+	margin: 0 auto;
+}
+
+
+main {
+	display: flex;
+}
+
+.boxes{
+	width: 500px;
+	margin: 10px;
+	border: solid #A0E79F;
+	padding: 20px;
+}
+
+#cashier button {
+	margin: 5px 5px;
+}
+
+#total{
+	font-weight: bold;
+	margin: 15px 0px;
+}
+
+#noworder {
+	color: green;
+	font-weight: bold;
+	font-size: 20px;
+}
+#comeorder {
+	list-style: none;
+	padding: 0px;
+}
+
+#barist {
+	background: #E8E0C6;
+}
+
+
+
+

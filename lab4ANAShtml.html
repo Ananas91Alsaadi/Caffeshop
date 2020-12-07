@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<link rel="stylesheet" href="lab4ANAScss.css">
+	<script src="lab4ANASjs.js"></script>
+<title>lab4coffe</title>
+</head>
+<body onLoad="LoadPage()">
+	<main>
+		<div class="boxes" id="cashier">
+			<h1>Cashier</h1>
+			<button id="addcup" onClick="AddCup()">Add New Cup</button>
+			<div id="cups">
+			</div>	
+			<ol id="order">
+			</ol>
+			<p id="total"></p>
+			<button id="finnish" onClick="finnishandmove()">Finnish Order</button>
+			<button id="dele" onClick="dele()">Cancel Order</button>
+		</div>
+		<div class="boxes" id="barist">
+			<h2>Barista</h2>
+			<button id="nextdrink" onClick="nextdrink()">Next Drink</button>
+			<h2>Currently Brewing</h2>
+			<div id="noworder"></div>
+			<hr>
+			<ul id="comeorder">
+			</ul>
+		</div>
+		<div class="boxes" id="manager">
+			<h2>Manager</h2>
+			<div id="totalsale"></div>
+			<hr>
+			<h3>Today's orders</h3>
+			<ol id="todaysales">
+			</ol>
+			<p>Best sale: <span id="best"></span></p>
+		</div>
+	</main>
+</body>
+</html>
